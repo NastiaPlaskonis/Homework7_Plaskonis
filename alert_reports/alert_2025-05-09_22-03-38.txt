@@ -1,0 +1,3 @@
+ALERT TYPE: email
+TIME: 2025-05-09_22-03-38
+DATA: {'name': 'Anastasiia Plaskonis', 'email': 'plaskonis.pn@ucu.edu.ua', 'phone': '+3801234567'}
