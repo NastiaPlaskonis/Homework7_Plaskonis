@@ -160,7 +160,7 @@ As user load increases, adjustments to infrastructure become necessary to mainta
 
 ### Resource planning summary
 
-| Layer          | 10 Users           | 50 Users                     | 100+ Users                                |
+| Layer          | <10 Users           | <50 Users                     | >100 Users                                |
 |----------------|--------------------|-------------------------------|--------------------------------------------|
 | FastAPI        | 1 instance         | 2–4 Gunicorn workers          | Multiple load-balanced containers          |
 | Celery Workers | 1 process          | 2–3 workers                   | 4–6+ workers (potentially distributed)      |
